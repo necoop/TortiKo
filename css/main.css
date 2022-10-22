@@ -238,6 +238,9 @@ body {
 .menu__box {
   transition-duration: 0.25s;
 }
+.menu__box > :last-child{
+  margin-top: 20px;
+}
 .menu__item {
   transition-duration: 0.25s;
 }
