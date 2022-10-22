@@ -291,10 +291,15 @@ h4 {
   margin-left: 6px;
 }
 .circle {
-  background: #bb2e69;
   border-radius: 50%;
   display: block;
   margin: auto 0;
+}
+.circle__upper{
+  background: #4D5469;
+}
+.circle__lower{
+  background: #BB2E69;
 }
 .pic__inner__circle__bottom {
   margin-top: 16px;
