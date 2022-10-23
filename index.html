@@ -26,16 +26,17 @@
                 <div class="hamburger__menu">
                     <input id="menu__toggle" type="checkbox" />
                     <label class="menu__btn" for="menu__toggle">
-                      <span></span>
-                    </label>  <ul class="menu__box">
-                      <li><a class="menu__item" href="#">О нас</a></li>
-                      <li><a class="menu__item" href="#">Цены</a></li>
-                      <li><a class="menu__item" href="#">Доставка</a></li>
-                      <li><a class="menu__item" href="#">Блог</a></li>
-                      <li><a class="menu__item" href="#">Контакты</a></li>
-                      <li><a href="tel:+79045229573" class="btn">Позвонить</a></li>
+                        <span></span>
+                    </label>
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="#">О нас</a></li>
+                        <li><a class="menu__item" href="#">Цены</a></li>
+                        <li><a class="menu__item" href="#">Доставка</a></li>
+                        <li><a class="menu__item" href="#">Блог</a></li>
+                        <li><a class="menu__item" href="#">Контакты</a></li>
+                        <li><a href="tel:+79045229573" class="btn">Позвонить</a></li>
                     </ul>
-                  </div>
+                </div>
                 <nav class="header__menu">
                     <ul class="menu__list">
                         <li class="menu__item"><a href="#!">О нас</a></li>
@@ -181,11 +182,215 @@
                     <form>
                         <input type="text" placeholder="Имя" class="order_field order__name">
                         <input type="text" placeholder="Номер" class="order_field order__number">
-                        <input type="text" placeholder="Загрузить фото" class="order_field order__foto">
+                        <input type="text" placeholder="Загрузить фото" class="order_field order__foto" disabled>
                         <input type="submit" class="order__btn" value="Заказать">
                     </form>
                 </div>
-                
+
+            </div>
+        </section>
+        <section class="order__process">
+            <h2>Процесс реализации заказа</h2>
+            <div class="order__process__container container">
+                <div class="order__process__item">
+                    <div class="order__process__inner" id="accept__order">
+                        <div class="order__process__number" id="process__1">1</div>
+                        <h4>Утверждаем заказ</h4>
+                        <p>Получаем заказ и перезваниваем Вам для уточнения деталей</p>
+                    </div>
+                </div>
+                <div class="order__process__item">
+                    <div class="order__process__inner" id="cooking__muffins">
+                        <div class="order__process__number" id="process__2">2</div>
+                        <h4>Готовим маффины</h4>
+                        <p>Готовим вкусные маффины по выбранному Вами рецепту</p>
+                    </div>
+                </div>
+                <div class="order__process__item">
+                    <div class="order__process__inner" id="send__order">
+                        <div class="order__process__number" id="process__3">3</div>
+                        <h4>Отправляем</h4>
+                        <p>Отправляем Ваш заказ курьером</p>
+                    </div>
+                </div>
+                <div class="order__process__item">
+                    <div class="order__process__inner" id="resive__order">
+                        <div class="order__process__number" id="process__4">4</div>
+                        <h4>Получение заказа</h4>
+                        <p>После звонка курьера Вы получаете свой заказ</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews container">
+            <h2>Что о нас говорят наши клиенты?</h2>
+            <div class="reviews__container">
+                <div class="reviews__box">
+                    <div class="reviews__container__inner">
+                        <div class="text__reviews">
+                            <svg width="34" height="48" viewBox="0 0 34 48" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M33.4032 16.7894C33.4032 16.7893 33.4032 16.7891 33.4032 16.789C33.4032 7.70304 26.0376 0.337402 16.9516 0.337402C7.86564 0.337402 0.5 7.70304 0.5 16.789C0.5 25.875 7.86564 33.2406 16.9516 33.2406C17.6221 33.2406 18.2832 33.2005 18.9326 33.1226C15.9453 39.7174 11.7839 44.9894 9.27419 47.4991C23.0116 43.3778 29.5796 31.8184 32.1353 23.1336C32.952 21.1813 33.4032 19.038 33.4032 16.7894Z"
+                                    fill="#2D3848" />
+                            </svg>
+                            <svg width="34" height="48" viewBox="0 0 34 48" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M33.4032 16.7894C33.4032 16.7893 33.4032 16.7891 33.4032 16.789C33.4032 7.70304 26.0376 0.337402 16.9516 0.337402C7.86564 0.337402 0.5 7.70304 0.5 16.789C0.5 25.875 7.86564 33.2406 16.9516 33.2406C17.6221 33.2406 18.2832 33.2005 18.9326 33.1226C15.9453 39.7174 11.7839 44.9894 9.27419 47.4991C23.0116 43.3778 29.5796 31.8184 32.1353 23.1336C32.952 21.1813 33.4032 19.038 33.4032 16.7894Z"
+                                    fill="#2D3848" />
+                            </svg>
+                            <p>
+                                Мягкие, немного влажноватые, как будто с пропиткой. Дети на завтрак смолотили в секунду.
+                                Очень вкусно! Буду покупать ещё.
+                            </p>
+                            <div class="star__container">
+                                <svg width="27" height="26" viewBox="0 0 27 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.5 0.499023L18.1905 8.04307L26.8148 10.1728L21.0894 16.965L21.729 25.8253L13.5 22.479L5.27101 25.8253L5.91057 16.965L0.185208 10.1728L8.80947 8.04307L13.5 0.499023Z"
+                                        fill="#BB2E69" />
+                                </svg>
+                                <svg width="27" height="26" viewBox="0 0 27 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.5 0.499023L18.1905 8.04307L26.8148 10.1728L21.0894 16.965L21.729 25.8253L13.5 22.479L5.27101 25.8253L5.91057 16.965L0.185208 10.1728L8.80947 8.04307L13.5 0.499023Z"
+                                        fill="#BB2E69" />
+                                </svg>
+                                <svg width="27" height="26" viewBox="0 0 27 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.5 0.499023L18.1905 8.04307L26.8148 10.1728L21.0894 16.965L21.729 25.8253L13.5 22.479L5.27101 25.8253L5.91057 16.965L0.185208 10.1728L8.80947 8.04307L13.5 0.499023Z"
+                                        fill="#BB2E69" />
+                                </svg>
+                                <svg width="27" height="26" viewBox="0 0 27 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.5 0.499023L18.1905 8.04307L26.8148 10.1728L21.0894 16.965L21.729 25.8253L13.5 22.479L5.27101 25.8253L5.91057 16.965L0.185208 10.1728L8.80947 8.04307L13.5 0.499023Z"
+                                        fill="#BB2E69" />
+                                </svg>
+                                <svg width="27" height="26" viewBox="0 0 27 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.5 0.499023L18.1905 8.04307L26.8148 10.1728L21.0894 16.965L21.729 25.8253L13.5 22.479L5.27101 25.8253L5.91057 16.965L0.185208 10.1728L8.80947 8.04307L13.5 0.499023Z"
+                                        fill="#BB2E69" />
+                                </svg>
+                            </div>
+                            <h4>Ольга</h4>
+                        </div>
+                        <img src="./img/review/Client1.png" alt="Client1">
+                    </div>
+                </div>
+                <div class="reviews__box">
+                    <div class="reviews__container__inner">
+                        <div class="text__reviews">
+                            <svg width="34" height="48" viewBox="0 0 34 48" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M33.4032 16.7894C33.4032 16.7893 33.4032 16.7891 33.4032 16.789C33.4032 7.70304 26.0376 0.337402 16.9516 0.337402C7.86564 0.337402 0.5 7.70304 0.5 16.789C0.5 25.875 7.86564 33.2406 16.9516 33.2406C17.6221 33.2406 18.2832 33.2005 18.9326 33.1226C15.9453 39.7174 11.7839 44.9894 9.27419 47.4991C23.0116 43.3778 29.5796 31.8184 32.1353 23.1336C32.952 21.1813 33.4032 19.038 33.4032 16.7894Z"
+                                    fill="#2D3848" />
+                            </svg>
+                            <svg width="34" height="48" viewBox="0 0 34 48" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M33.4032 16.7894C33.4032 16.7893 33.4032 16.7891 33.4032 16.789C33.4032 7.70304 26.0376 0.337402 16.9516 0.337402C7.86564 0.337402 0.5 7.70304 0.5 16.789C0.5 25.875 7.86564 33.2406 16.9516 33.2406C17.6221 33.2406 18.2832 33.2005 18.9326 33.1226C15.9453 39.7174 11.7839 44.9894 9.27419 47.4991C23.0116 43.3778 29.5796 31.8184 32.1353 23.1336C32.952 21.1813 33.4032 19.038 33.4032 16.7894Z"
+                                    fill="#2D3848" />
+                            </svg>
+                            <p>
+                                Очень вкусные маффины, всей семье понравились, будем заказывать ещё!
+                            </p>
+                            <div class="star__container">
+                                <svg width="27" height="26" viewBox="0 0 27 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.5 0.499023L18.1905 8.04307L26.8148 10.1728L21.0894 16.965L21.729 25.8253L13.5 22.479L5.27101 25.8253L5.91057 16.965L0.185208 10.1728L8.80947 8.04307L13.5 0.499023Z"
+                                        fill="#BB2E69" />
+                                </svg>
+                                <svg width="27" height="26" viewBox="0 0 27 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.5 0.499023L18.1905 8.04307L26.8148 10.1728L21.0894 16.965L21.729 25.8253L13.5 22.479L5.27101 25.8253L5.91057 16.965L0.185208 10.1728L8.80947 8.04307L13.5 0.499023Z"
+                                        fill="#BB2E69" />
+                                </svg>
+                                <svg width="27" height="26" viewBox="0 0 27 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.5 0.499023L18.1905 8.04307L26.8148 10.1728L21.0894 16.965L21.729 25.8253L13.5 22.479L5.27101 25.8253L5.91057 16.965L0.185208 10.1728L8.80947 8.04307L13.5 0.499023Z"
+                                        fill="#BB2E69" />
+                                </svg>
+                                <svg width="27" height="26" viewBox="0 0 27 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.5 0.499023L18.1905 8.04307L26.8148 10.1728L21.0894 16.965L21.729 25.8253L13.5 22.479L5.27101 25.8253L5.91057 16.965L0.185208 10.1728L8.80947 8.04307L13.5 0.499023Z"
+                                        fill="#BB2E69" />
+                                </svg>
+                                <svg width="27" height="26" viewBox="0 0 27 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.5 0.499023L18.1905 8.04307L26.8148 10.1728L21.0894 16.965L21.729 25.8253L13.5 22.479L5.27101 25.8253L5.91057 16.965L0.185208 10.1728L8.80947 8.04307L13.5 0.499023Z"
+                                        fill="#BB2E69" />
+                                </svg>
+                            </div>
+                            <h4>Елена</h4>
+                        </div>
+                        <img src="./img/review/Client2.png" alt="Client2">
+                    </div>
+                </div>
+                <div class="reviews__box">
+                    <div class="reviews__container__inner">
+                        <div class="text__reviews">
+                            <svg width="34" height="48" viewBox="0 0 34 48" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M33.4032 16.7894C33.4032 16.7893 33.4032 16.7891 33.4032 16.789C33.4032 7.70304 26.0376 0.337402 16.9516 0.337402C7.86564 0.337402 0.5 7.70304 0.5 16.789C0.5 25.875 7.86564 33.2406 16.9516 33.2406C17.6221 33.2406 18.2832 33.2005 18.9326 33.1226C15.9453 39.7174 11.7839 44.9894 9.27419 47.4991C23.0116 43.3778 29.5796 31.8184 32.1353 23.1336C32.952 21.1813 33.4032 19.038 33.4032 16.7894Z"
+                                    fill="#2D3848" />
+                            </svg>
+                            <svg width="34" height="48" viewBox="0 0 34 48" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M33.4032 16.7894C33.4032 16.7893 33.4032 16.7891 33.4032 16.789C33.4032 7.70304 26.0376 0.337402 16.9516 0.337402C7.86564 0.337402 0.5 7.70304 0.5 16.789C0.5 25.875 7.86564 33.2406 16.9516 33.2406C17.6221 33.2406 18.2832 33.2005 18.9326 33.1226C15.9453 39.7174 11.7839 44.9894 9.27419 47.4991C23.0116 43.3778 29.5796 31.8184 32.1353 23.1336C32.952 21.1813 33.4032 19.038 33.4032 16.7894Z"
+                                    fill="#2D3848" />
+                            </svg>
+                            <p>
+                                Восхитительные маффины, заказывала в подарок. Именинник остался доволен!
+                            </p>
+                            <div class="star__container">
+                                <svg width="27" height="26" viewBox="0 0 27 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.5 0.499023L18.1905 8.04307L26.8148 10.1728L21.0894 16.965L21.729 25.8253L13.5 22.479L5.27101 25.8253L5.91057 16.965L0.185208 10.1728L8.80947 8.04307L13.5 0.499023Z"
+                                        fill="#BB2E69" />
+                                </svg>
+                                <svg width="27" height="26" viewBox="0 0 27 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.5 0.499023L18.1905 8.04307L26.8148 10.1728L21.0894 16.965L21.729 25.8253L13.5 22.479L5.27101 25.8253L5.91057 16.965L0.185208 10.1728L8.80947 8.04307L13.5 0.499023Z"
+                                        fill="#BB2E69" />
+                                </svg>
+                                <svg width="27" height="26" viewBox="0 0 27 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.5 0.499023L18.1905 8.04307L26.8148 10.1728L21.0894 16.965L21.729 25.8253L13.5 22.479L5.27101 25.8253L5.91057 16.965L0.185208 10.1728L8.80947 8.04307L13.5 0.499023Z"
+                                        fill="#BB2E69" />
+                                </svg>
+                                <svg width="27" height="26" viewBox="0 0 27 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.5 0.499023L18.1905 8.04307L26.8148 10.1728L21.0894 16.965L21.729 25.8253L13.5 22.479L5.27101 25.8253L5.91057 16.965L0.185208 10.1728L8.80947 8.04307L13.5 0.499023Z"
+                                        fill="#BB2E69" />
+                                </svg>
+                                <svg width="27" height="26" viewBox="0 0 27 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.5 0.499023L18.1905 8.04307L26.8148 10.1728L21.0894 16.965L21.729 25.8253L13.5 22.479L5.27101 25.8253L5.91057 16.965L0.185208 10.1728L8.80947 8.04307L13.5 0.499023Z"
+                                        fill="#BB2E69" />
+                                </svg>
+                            </div>
+                            <h4>Анна</h4>
+                        </div>
+                        <img src="./img/review/Client3.png" alt="Client3">
+                    </div>
+                </div>
             </div>
         </section>
     </div>
