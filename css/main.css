@@ -625,6 +625,12 @@ h2 {
   padding-left: 16px;
   padding-right: 16px;
 }
+.order_field:hover, #taste__selector:hover{
+  border: 2px solid #4d5469;
+}
+#taste__selector:hover{
+  cursor: pointer;
+}
 .order__form form > *:not(:first-child) {
   margin-top: 17px;
 }
