@@ -221,6 +221,9 @@ body {
 .menu__item:hover {
   background-color: #cfd8dc;
 }
+#menu__toggle{
+  position: fixed;
+}
 #menu__toggle:checked ~ .menu__btn > span {
   transform: rotate(45deg);
 }
