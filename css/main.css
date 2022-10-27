@@ -677,6 +677,9 @@ h2 {
   .order__form h3 {
     text-align: center;
   }
+  .order__form input[type="submit"]{
+    width: 100%;
+  }
 }
 @media (max-width: 590px) {
   .order__inner {
